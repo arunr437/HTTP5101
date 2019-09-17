@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>401 Mini-Indy GO Karts</h1>
+    <section>
+        <form method="GET" action="https://postman-echo.com/get">
+            <section>
+                <h3>Please enter your details!</h3>
+                <label>First name:</label>
+                <input type="text" id="customer_firstname" name="customer_firstname" />
+                <label>Last name:</label>
+                <input type="text" id="customer_lastname" name="customer_lastname" />
+                <label>Contact number:</label>
+                <input type="text" id="customer_number" name="customer_number" />
+            </section>
+
+            <section>
+                <h3>Which of our branches did you visit? </h3>
+                <select id="gokart_branch" name="gokart_branch">
+                    <option value="Etobicoke">Etobicoke</option>
+                    <option value="Brampton">Brampton</option>
+                    <option value="Toronto">Toronto</option>
+                    <option value="York">York</option>
+                    <option value="Mississauga">Mississauga</option>
+                </select>
+            </section>
+
+            <section>
+                <h3>Rate your overall experience</h3>
+                <div><input type="radio" value="1" id="overall_rating_1" name="overall_rating" /><label for="overall_rating_1">1</label></div>
+                <div><input type="radio" value="2" id="overall_rating_2" name="overall_rating" /><label for="overall_rating_2">2</label></div>
+                <div><input type="radio" value="3" id="overall_rating_3" name="overall_rating" /><label for="overall_rating_3">3</label></div>
+                <div><input type="radio" value="4" id="overall_rating_4" name="overall_rating" /><label for="overall_rating_4">4</label></div>
+                <div><input type="radio" value="5" id="overall_rating_5" name="overall_rating" /><label for="overall_rating_5">5</label></div>
+            </section>
+
+            <section>
+                <h3>Would you recommend our Go-Kart company to others ? </h3>
+                <div><input type="radio" value="Yes" id="customer_recommendation_yes" name="customer_recommendation" /><label for="customer_recommendation_yes">Yes</label></div>
+                <div><input type="radio" value="No" id="customer_recommendation_no" name="customer_recommendation" /><label for="customer_recommendation_no">No</label></div>
+            </section>
+
+            <section>
+                <h3>What did you like about our place ?</h3>
+                <div><input type="checkbox" value="Infrastructure" id="positive_option_1" name="positive_option_1" /><label for="positive_option_1">Infrastructure</label></div>
+                <div><input type="checkbox" value="Customer Service" id="positive_option_2" name="positive_option_2" /><label for="positive_option_1">Customer Service</label></div>
+                <div><input type="checkbox" value="Cafeteria" id="positive_option_3" name="positive_option_3" /><label for="positive_option_3">Cafeteria</label></div>
+                <div><input type="checkbox" value="Tariff" id="positive_option_4" name="positive_option_4" /><label for="positive_option_4">Tariff</label></div>
+            </section>
+
+            <section>
+                <input type="submit" value="submit" />
+            </section>
+        </form>
+    </section>
+</body>
+</html>
